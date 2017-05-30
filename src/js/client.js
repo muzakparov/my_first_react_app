@@ -4,9 +4,16 @@ import ReactDOM from "react-dom";
 // import Layout from "./components/Layout";
 
 class Layout extends React.Component{
+    constructor(){
+        super();
+        this.name = "Bakhtiiar";
+    }
+    
     render(){
         return (
-            <h1>My React App</h1>    
+            <div>
+                <h1>My React App and My name is {this.name}</h1>
+            </div>
         );
     }
 }
